@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TugasLogin</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forget">Forget Password</string>
+    <string name="rememberme">Remember Me</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="accountyet">No account yet? Create one</string>
+    <string name="loginn">login</string>
+    <string name="passwordd">password</string>
+    <string name="email">email</string>
+    <string name="login_satu">Login Satu</string>
+    <string name="login_dua">Login Dua</string>
+    <string name="tugas_login">Tugas Login</string>
+</resources>

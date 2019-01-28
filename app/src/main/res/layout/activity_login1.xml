@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login1"
+    android:background="#ff3333"
+    >
+
+
+    <TextView
+
+        android:id="@+id/font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/donatello"
+        android:gravity="center"
+        android:paddingBottom="20sp"
+        android:paddingTop="65sp"
+        android:text="famous"
+        android:textSize="55sp"
+        android:textColor="@android:color/white"/>
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="345sp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:textColor="@android:color/white"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:width="345sp"
+        android:inputType="textPassword"
+        android:hint="@string/passwordd"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="345sp"
+        android:text="@string/loginn"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/accountyet"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="20sp"
+        />
+
+</LinearLayout>
